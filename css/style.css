@@ -434,6 +434,14 @@ section {
   }
 }
 @media(max-width:990px){
+  .milind {
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px 305px;
+        position: relative;
+  }
   .team-box-container{
       grid-template-columns: 232px 232px 232px;
       grid-gap: 10px;
